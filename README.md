@@ -5,7 +5,7 @@ ServerからClientのみ命令可能。
 
 unity3d 5.1.1p2
 
-# 使い方
+## 使い方
 
 通常uNetを使うようなにNetworkManagerを設定。
 
@@ -19,7 +19,7 @@ SendNetMessageWithString(string sendGameObjectName, string methodName, string st
 sendGameObjectName: 下記で指定するmethodNameを有するGameObject名。  
 methodName: 実行する関数。
 
-#サンプル
+##サンプル
 
 uNetSendMessage.unity 
 

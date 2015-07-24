@@ -9,7 +9,7 @@ unity3d 5.1.1p2
 
 通常uNetを使うようなにNetworkManagerを設定。
 
-GameObjectにNetworkIdentityをつけ、UnetActionをつける。
+GameObjectにNetworkIdentityをアタッチし、UnetActionをアタッチ。
 
 あとは、UnetActionの  
 SendNetMessage(string sendGameObjectName, string methodName);  
